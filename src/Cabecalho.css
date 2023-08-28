@@ -1,0 +1,19 @@
+h1{
+    color: pink;
+}
+
+img{
+    width: 100px;
+    animation: barbie 3s infinite;
+}
+@keyframes barbie{
+    to{
+        transform: rotate(0);
+       
+    }
+    from{
+        transform: rotate(360deg);
+        
+        width: 300px;
+    }
+}
